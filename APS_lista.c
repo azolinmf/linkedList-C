@@ -236,8 +236,8 @@ int main()
     int cont = 0;
     int a;
 
-    FILE *entrada = fopen("/Users/fernanda/Documents/APS_lattmann/entrada.txt", "r");
-    FILE *saida = fopen("/Users/fernanda/Documents/APS_lattmann/saida.txt", "w");
+    FILE *entrada = fopen("entrada.txt", "r");
+    FILE *saida = fopen("saida.txt", "w");
 
     Lista *lista = NULL;
     lista = malloc(sizeof(Lista));
